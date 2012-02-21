@@ -14,7 +14,9 @@ def main():
 	all = FindAll("cleaneddata")
 	for file in all:
 		f = open(file)
-		for line in f
+		for line in f:
+			if(IsAnswerN(line)):
+				ChangeAnswer(file, line);
 	
 main()
 
