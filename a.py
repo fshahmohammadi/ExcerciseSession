@@ -10,7 +10,6 @@ def IsAnswerN(line):
 	return p != -1;
 
 def ChangeAnswer(fileName, line):
-	print fileName
 	read = open(fileName)
 	write = open(fileName + "2", "w")
 	for tmpLine in read:
